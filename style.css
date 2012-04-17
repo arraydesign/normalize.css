@@ -1,0 +1,124 @@
+@import "css/jquery.fancybox.css";
+@import "css/normalize.css";
+@import "css/global.css";
+@import "css/layout.css";
+
+ul#grid {
+    background: url("assets/BG-grid-large.gif") repeat scroll left top green;
+    display: none;
+    font-size: 9px;
+    height: 100%;
+    left: 0;
+    line-height: 9px;
+    list-style-type: none;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 1124px;
+    opacity: 0.3;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+ul#grid li{
+    background: url("assets/BG-grid-large.gif") repeat scroll left top red;
+    display: inline;
+    float: left;
+    height: 100%;
+    margin-left: 1.875%;
+    margin-right: 1.875%;
+    padding: 0;
+    position: relative;
+    width: 15.5%;
+}
+
+ul#grid li:before {
+    background: none repeat scroll 0 0 black;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 50%;
+}
+
+ul#grid li:after {
+    background: none repeat scroll 0 0 grey;
+    content: "";
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    right: -12.0968%;
+    top: 0;
+    width: 12.0968%;
+}
+
+ul#grid li:first-child {
+    margin-left: 3.75%;
+}
+
+ul#grid li:last-child {
+    margin-right: 3.75%;
+}
+
+
+/* MOBILE
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 640px) {
+
+	ul#grid {
+    background: url("assets/BG-grid-mob.gif") repeat scroll left top blue;
+    display: none;
+    max-width: 640px;
+    min-width: 640px;
+	}
+	
+	ul#grid li{
+    background: url("assets/BG-grid-mob.gif") repeat scroll left top red;
+	}
+
+}
+
+
+/* SMALL
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 866px) {
+
+	ul#grid {
+    background: url("assets/BG-grid-small.gif") repeat scroll left top yellow;
+    display: none;
+    max-width: 768px;
+    min-width: 768px;
+    width: 768px;
+	}
+	
+	ul#grid li{
+    background: url("assets/BG-grid-small.gif") repeat scroll left top red;
+	}
+
+}
+
+
+/* MEDIUM
+-------------------------------------------------------------- */
+
+@media screen and (min-width: 868px) and (max-width: 1122px) {
+
+	ul#grid {
+    background: url("assets/BG-grid-med.gif") repeat scroll left top blue;
+    display: none;
+    max-width: 1024px;
+    min-width: 868px;
+	}
+	
+	ul#grid li{
+    background: url("assets/BG-grid-med.gif") repeat scroll left top red;
+	}
+
+}
