@@ -1,43 +1,22 @@
 /* TypeKit set-up
 -------------------------------------------------------------- */
 
-html.wf-loading details,
-html.wf-loading figcaption,
-html.wf-loading h1,
-html.wf-loading h2,
-html.wf-loading h3,
-html.wf-loading h4,
-html.wf-loading h5,
-html.wf-loading h6,
-html.wf-loading p,
-html.wf-loading blockquote,
-html.wf-loading dfn,
-html.wf-loading mark,
-html.wf-loading pre,
-html.wf-loading code,
-html.wf-loading kbd,
-html.wf-loading samp,
-html.wf-loading q,
-html.wf-loading sub,
-html.wf-loading sup,
-html.wf-loading li,
-html.wf-loading a,
-html.wf-loading span,
-html.wf-loading td,
-html.wf-loading th,
-html.wf-loading legend,
-html.wf-loading label,
-html.wf-loading button,
-html.wf-loading input,
-html.wf-loading select,
-html.wf-loading textarea,
-html.wf-loading small {
+html.wf-loading details, html.wf-loading figcaption, html.wf-loading h1, html.wf-loading h2, html.wf-loading h3, html.wf-loading h4, html.wf-loading h5, html.wf-loading h6, html.wf-loading p, html.wf-loading blockquote, html.wf-loading dfn, html.wf-loading mark, html.wf-loading pre, html.wf-loading code, html.wf-loading kbd, html.wf-loading samp, html.wf-loading q, html.wf-loading sub, html.wf-loading sup, html.wf-loading li, html.wf-loading a, html.wf-loading span, html.wf-loading td, html.wf-loading th, html.wf-loading legend, html.wf-loading label, html.wf-loading button, html.wf-loading input, html.wf-loading select, html.wf-loading textarea, html.wf-loading small {
     opacity: 0;
 }
 
 .wf-active p {
     overflow: hidden;
 }
+
+/* Some basic resets
+-------------------------------------------------------------- */
+
+html, body, div, span, object, iframe, header, nav, aside, footer, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, figure, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, figcaption, tbody, tfoot, thead, tr, th, td {border:0 none;margin:0;padding:0;vertical-align:baseline;}
+
+h1, h2, h3, h4, header, .wrapper, #logo, .genbox, .gallery-icon, .thumbnail, .img-centre, .img-centre-w, .img-centre-h, li.gallery-item, fieldset, .fieldrow, label, .multiple label + span, .file-row label + span, input, select, button, .btn, button span, .btn span, footer, p + img, ul ul, ul ol, ol ol, ol ul, dl.section-list dt, dl.section-list dt.selected a, .custom, figure, img, iframe, embed, video {position: relative;}
+
+dl.section-list dt, nav ul, .content, aside, .gallery-icon, .thumbnail, .img-centre, .img-centre-w, .img-centre-h, form, .fieldrow, footer, footer div, footer ul {overflow: hidden;}
 
 
 /* HTML5 display definitions
@@ -948,20 +927,20 @@ table tfoot td {}
 /* MOBILE
 --------------------------------------------------------------
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 592px) {
 } */
 
 
 /* SMALL
 --------------------------------------------------------------
 
-@media screen and (max-width: 866px) {
+@media screen and (min-width: 593px) and (max-width: 849px) {
 } */
 
 
 /* MEDIUM
 --------------------------------------------------------------
 
-@media screen and (min-width: 868px) and (max-width: 1122px) {
+@media screen and (min-width: 850px) and (max-width: 1025px) {
 } */
 
