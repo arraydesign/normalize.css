@@ -1,10 +1,6 @@
 /* TypeKit set-up
 -------------------------------------------------------------- */
 
-html.wf-loading details, html.wf-loading figcaption, html.wf-loading h1, html.wf-loading h2, html.wf-loading h3, html.wf-loading h4, html.wf-loading h5, html.wf-loading h6, html.wf-loading p, html.wf-loading blockquote, html.wf-loading dfn, html.wf-loading mark, html.wf-loading pre, html.wf-loading code, html.wf-loading kbd, html.wf-loading samp, html.wf-loading q, html.wf-loading sub, html.wf-loading sup, html.wf-loading li, html.wf-loading a, html.wf-loading span, html.wf-loading td, html.wf-loading th, html.wf-loading legend, html.wf-loading label, html.wf-loading button, html.wf-loading input, html.wf-loading select, html.wf-loading textarea, html.wf-loading small {
-    opacity: 0;
-}
-
 .wf-active p {
     overflow: hidden;
 }
@@ -104,11 +100,6 @@ h4 a {
 
 ::selection,
 ::-moz-selection {}
-
-/*
- * Addresses font sizes and margins set differently in IE6/7
- * Addresses font sizes within 'section' and 'article' in FF4+, Chrome, S5
- */
 
 h1,
 h2,
