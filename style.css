@@ -8,7 +8,7 @@ ul#grid li{background:url("css/assets/BG-grid.gif") repeat scroll left top red;h
 ul#grid li:first-child{margin-left:2.5%}
 
 
-/* MOBILE Test
+/* MOBILE
 -------------------------------------------------------------- */
 
 @media screen and (max-width: 592px) {
