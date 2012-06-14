@@ -198,6 +198,7 @@ nav ul li:last-child {
     margin: 0 0 3em;
     padding-bottom: 1em;
     padding-top: 0.5em;
+    border-top: 1px solid #ffffff;
 }
 
 .main {
@@ -357,7 +358,7 @@ footer {
     border-top: 1px solid;
     font-size: 0.75em;
     height: 4em;
-    margin: -4em auto 0;
+    margin: -4.08333333em auto 0;
     min-width:1026px;
     max-width:1200px;
     padding: 0;
